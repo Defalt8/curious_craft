@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Curious Craft",
+            "color": "gold",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "free your curiousity",
+            "color": "green",
+            "bold": false,
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}

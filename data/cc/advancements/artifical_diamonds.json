@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Artificial diamonds",
+            "color": "aqua",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "coal blocks into diamonds",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "blasted diamonds": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cc:diamond_from_blasting_coal_block"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 12
+    },
+    "parent": "cc:root"
+}
